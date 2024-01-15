@@ -1,0 +1,50 @@
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+.bg_heart {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-size: 1850px 900px;
+  z-index: -1;
+  animation: backgroundanim 105s ;
+
+}
+
+@keyframes backgroundanim {
+  0% {
+    background-image: url("https://t4.ftcdn.net/jpg/05/57/14/07/360_F_557140771_TpgYMUHTXg1HqjBSYXIncD1UzcFPTiHI.jpg");
+  }
+  20% {
+    background-image: url("https://cdn2.vectorstock.com/i/1000x1000/29/66/beautiful-red-love-background-with-hearts-vector-23562966.jpg");
+  }
+  45% {
+    background-image: url("https://scontent.fdel24-1.fna.fbcdn.net/v/t39.30808-6/295401705_184186710657694_3084680087670297843_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=783fdb&_nc_ohc=zdyFpB7sXJ4AX-tqn6_&_nc_ht=scontent.fdel24-1.fna&oh=00_AfCFR6FWk5rBnE-yPs6P7-g-hW4wuXRSvUlBKJhxAhBM2g&oe=65AAB3F7");
+  }
+  97% {
+    background-image: url("https://scontent.fdel24-1.fna.fbcdn.net/v/t39.30808-6/295401705_184186710657694_3084680087670297843_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=783fdb&_nc_ohc=zdyFpB7sXJ4AX-tqn6_&_nc_ht=scontent.fdel24-1.fna&oh=00_AfCFR6FWk5rBnE-yPs6P7-g-hW4wuXRSvUlBKJhxAhBM2g&oe=65AAB3F7");
+  }
+
+  97.3% {
+    background-image: url("https://i.pinimg.com/736x/dd/00/34/dd0034796d9d9be9a7e143e129cab510.jpg");
+  }
+  100% {
+    background-image: url("https://i.pinimg.com/736x/dd/00/34/dd0034796d9d9be9a7e143e129cab510.jpg");
+  }
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  color: rgb(11, 11, 11);
+  font-family: cursive;
+}
